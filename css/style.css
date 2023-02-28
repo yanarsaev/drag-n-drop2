@@ -33,6 +33,7 @@ body{
     box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
     border-radius: 20px;
     padding: 0.8rem 1rem;
+    background: #f7f6f7;
     color: #828282;
     text-align: center;
     cursor: grab;
@@ -41,6 +42,12 @@ body{
 .item:active{
     cursor: grabbing;
 }
+
+.placeholder {
+    width: 150px;
+    height: 66px;
+  }
+  
 
 .start{
     background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
@@ -52,4 +59,17 @@ body{
 
 .done{
     background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.hold{
+    background-color: #ffeeee;
+}
+
+.hide{
+    display: none;
+}
+
+.hovered{
+    background-color: #d5d5d5;
+    border-radius: 20px;
 }
